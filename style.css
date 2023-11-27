@@ -1,0 +1,50 @@
+.menu{
+    display: flex;
+    margin: 5px 5px;
+    padding:0;
+    background-color: rgba(150, 75, 4, 0.866);
+    margin: 0px;
+    text-align: left;
+    line-height: 10px; 
+}
+.menu li{
+    margin:auto;
+}
+
+.menu{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(210, 202, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    transition: 0,3s all;
+
+    justify-content: space-between;
+}
+
+
+body{
+    background-size: cover;
+    margin: 0px;
+}
+.profile{
+    margin-top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgba(108, 51, 9, 0.766);
+    margin:170px 80px;
+
+    
+}
+.profile h1 span{
+    color: rgb(150, 26, 26);
+}
+.title{
+    color: white;
+}
+.title span{
+    color: rgb(69, 34, 6);
+}

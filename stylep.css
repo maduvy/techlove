@@ -1,0 +1,53 @@
+body{
+    background-color:rgba(237, 155, 79, 0.866);;
+    text-align: center;
+   
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    border-radius: 160%;
+    width: 160px;
+    border: 3px solid rgb(255, 121, 4);
+    box-shadow: 0 0 50px rgb(251, 90, 4);
+    height: 170px;
+    text-align: center;
+}
+.information{
+    text-align: center;
+    height: auto;
+}
+.information h1{
+    color: rgb(0, 0, 0);
+}
+.information p{
+    color: rgb(72, 42, 2)
+}
+.menu{
+    display: flex;
+    margin: 5px 5px;
+    padding:0;
+    background-color: rgba(150, 75, 4, 0.866);
+    margin: 0px;
+    text-align: left;
+    line-height: 10px; 
+}
+.menu li{
+    margin:auto;
+}
+
+.menu{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(210, 202, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    transition: 0,3s all;
+
+    justify-content: space-between;
+}
+
